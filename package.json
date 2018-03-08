@@ -1,0 +1,16 @@
+{
+  "name": "NodeMail",
+  "description": "Criando um sistema de envio de email através do NodeJs com nodemailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "4.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "3.4.3",
+    "nodemailer": "^4.4.1"
+  }
+}
