@@ -7,7 +7,7 @@ app.set('port', process.env.PORT || 3000);
 app.use(express.bodyParser());
 app.use(express.json());
 
-app.post('/sendEmail', function (req, res){
+app.get('/sendEmail', function (req, res){
     /*
 		{
 			"to":"fabianodelimaabreu@gmail.com",
@@ -45,7 +45,7 @@ app.post('/sendEmail', function (req, res){
 		if (error) {
 		  console.log(error);
 		} else {
-		  console.log('Email sent: ' + info.response);
+		  console.log('Email Enviado com sucesso: ' + info.response);
 		}
 	});
 });
